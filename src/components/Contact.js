@@ -1,7 +1,7 @@
 import React from "react";
 import Rainbow from "../hoc/Rainbow";
 
-export default function Contact() {
+const Contact = (props) => {
   return (
     <div>
       <div className="container">
@@ -15,4 +15,5 @@ export default function Contact() {
       </div>
     </div>
   );
-}
+};
+export default Rainbow(Contact);
